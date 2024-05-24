@@ -123,6 +123,7 @@ export default function Home() {
             />
           </div>
           <div className="mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16">
+            {/* first review */}
             <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
               <div className="flex gap-0.5 mb-2">
                 <Star className="h-5 w-5 text-green-600 fill-green-600" />
@@ -150,6 +151,43 @@ export default function Home() {
                 />
                 <div className="flex flex-col">
                   <p className="font-semibold">Jonathan</p>
+                  <div className="flex gap-1.5 items-center text-zinc-600">
+                    <Check className="h-4 w-4 stroke-[3px] text-green-600" />
+                    <p className="text-sm">Verified Purchase</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* second review */}
+            <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
+              <div className="flex gap-0.5 mb-2">
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+              </div>
+              <div className="text-lg leading-8">
+                <p>
+                  "This case is exactly what I was looking for! It's slim and
+                  lightweight, but it still feels like it will protect my phone
+                  from drops.{" "}
+                  <span className="p-0.5 bg-slate-800 text-white">
+                    The buttons are easy to press and the cutouts are perfect
+                  </span>
+                  . I also love the grippy texture on the back - I don't feel
+                  like I'm going to drop it anymore. Overall, very happy with
+                  this purchase!"
+                </p>
+              </div>
+              <div className="flex gap-4 mt-2">
+                <img
+                  className="rounded-full h-12 w-12 object-cover"
+                  src="/users/user-5.jpg"
+                  alt="user-1"
+                />
+                <div className="flex flex-col">
+                  <p className="font-semibold">Kyle</p>
                   <div className="flex gap-1.5 items-center text-zinc-600">
                     <Check className="h-4 w-4 stroke-[3px] text-green-600" />
                     <p className="text-sm">Verified Purchase</p>
@@ -187,6 +225,45 @@ export default function Home() {
                 />
                 <div className="flex flex-col">
                   <p className="font-semibold">Zee</p>
+                  <div className="flex gap-1.5 items-center text-zinc-600">
+                    <Check className="h-4 w-4 stroke-[3px] text-green-600" />
+                    <p className="text-sm">Verified Purchase</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20">
+              <div className="flex gap-0.5 mb-2">
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+                <Star className="h-5 w-5 text-green-600 fill-green-600" />
+              </div>
+              <div className="text-lg leading-8">
+                <p>
+                  "I'm so impressed with how tough this case is! I've dropped my
+                  phone a few times and it hasn't even gotten a scratch. The
+                  material feels really solid and secure in my hand. But the
+                  best part?{" "}
+                  <span className="p-0.5 bg-slate-800 text-white">
+                    The design! It's exactly as clear and vibrant as it looks in
+                    the pictures.
+                  </span>{" "}
+                  The cutouts for the buttons and charging port are perfect -
+                  everything works seamlessly without any fumbling. This case is
+                  the perfect blend of protection and style. Absolutely love
+                  it!"
+                </p>
+              </div>
+              <div className="flex gap-4 mt-2">
+                <img
+                  className="rounded-full h-12 w-12 object-cover"
+                  src="/users/user-4.jpg"
+                  alt="user-2"
+                />
+                <div className="flex flex-col">
+                  <p className="font-semibold">Alecks</p>
                   <div className="flex gap-1.5 items-center text-zinc-600">
                     <Check className="h-4 w-4 stroke-[3px] text-green-600" />
                     <p className="text-sm">Verified Purchase</p>

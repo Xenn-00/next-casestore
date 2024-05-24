@@ -5,8 +5,6 @@ import { db } from "@/db";
 
 const f = createUploadthing();
 
-const auth = (req: Request) => ({ id: "fakeId" });
-
 export const ourFileRouter = {
   imageUploader: f({ image: { maxFileSize: "4MB" } })
     .input(
