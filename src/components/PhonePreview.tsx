@@ -29,7 +29,7 @@ const PhonePreview = ({
     return () => window.removeEventListener("resize", handleResize);
   }, [ref.current]);
 
-  let caseBackgroundColor = "bg-zinc-950";
+  let caseBackgroundColor = "bg-zinc-900";
   if (color === "blue") caseBackgroundColor = "bg-blue-950";
   if (color === "rose") caseBackgroundColor = "bg-rose-950";
 
